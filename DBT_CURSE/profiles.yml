@@ -1,0 +1,10 @@
+DBT_CURSE:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account 
+      project: prime-buffer-367812
+      dataset: DW
+      threads: 4
+      keyfile: /mnt/c/Users/mauri/Documents/Cursos/GCP/prime-buffer-367812-cc117984c30b.json
